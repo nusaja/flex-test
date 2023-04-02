@@ -154,6 +154,6 @@ function saveMismatches($mismatches, $mismatchType) {
         }
     }
 
-    echo "Saved room title mismatches in .csv\n";
+    echo "Saved room title mismatches in mismatch_" . $mismatchType . ".csv\n";
 
 }
